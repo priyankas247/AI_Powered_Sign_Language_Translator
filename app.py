@@ -11,7 +11,7 @@ model = None
 def load_model():
     global model
     if model is None:
-        model = tf.keras.models.load_model("your_model.h5")  # Update with your model path
+        model = tf.keras.models.load_model("sign_language_model.h5")  # Update with your model path
 
 @app.route("/", methods=["GET"])
 def home():
